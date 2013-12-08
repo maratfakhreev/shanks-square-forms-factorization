@@ -1,0 +1,120 @@
+/* CSS reset, yahoo table optimized by Imbamarik in 2011 */
+/* line 4, ../sass/_reset.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, ../sass/_reset.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 18, ../sass/_reset.scss */
+addres, caption, cite, code, dfh, em, strong, th, var, optgroup {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 23, ../sass/_reset.scss */
+del, ins {
+  text-decoration: none;
+}
+
+/* line 27, ../sass/_reset.scss */
+ol, ul, li {
+  list-style: none;
+}
+
+/* line 31, ../sass/_reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 35, ../sass/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 40, ../sass/_reset.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 44, ../sass/_reset.scss */
+q:before, q:after {
+  content: ' ';
+}
+
+/* line 48, ../sass/_reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 4, ../sass/style.scss */
+h1 {
+  font-size: 30px;
+}
+
+/* line 8, ../sass/style.scss */
+.tables {
+  display: none;
+  clear: both;
+  margin: 20px 0 0 0;
+}
+/* line 13, ../sass/style.scss */
+.tables span {
+  font-weight: bold;
+  margin: 15px 15px 0 15px;
+}
+
+/* line 19, ../sass/style.scss */
+.result {
+  line-height: 34px;
+}
+
+/* line 23, ../sass/style.scss */
+.table {
+  width: auto;
+}
+
+/* line 27, ../sass/style.scss */
+.table-block {
+  margin: 15px;
+  border: 1px solid #cccccc;
+  display: table;
+}
+/* line 32, ../sass/style.scss */
+.table-block li {
+  clear: both;
+}
+/* line 36, ../sass/style.scss */
+.table-block li:first-child div {
+  color: red;
+  font-style: italic;
+  background-color: #efefef;
+}
+/* line 44, ../sass/style.scss */
+.table-block li.divider .c3 {
+  color: blue;
+  font-weight: bold;
+}
+/* line 51, ../sass/style.scss */
+.table-block div {
+  width: 150px;
+  float: left;
+  border: 1px solid #cccccc;
+  color: #333;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
